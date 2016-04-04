@@ -1,9 +1,9 @@
 ## Shared utility to read the data
 source("utils.R")
-data <- read_household()
+data <- read_household_skip()
 
 ## Start the png device
-png(filename = "plot3.png", width = 400, height = 400, units = "px", bg = "white")
+png(filename = "plot3.png", width = 480, height = 480, units = "px", bg = "white")
 
 ## Plot an empty chart at first
 par(mar = c(4,4,1,1))

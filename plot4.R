@@ -1,9 +1,9 @@
 ## Shared utility to read the data
 source("utils.R")
-data <- read_household()
+data <- read_household_skip()
 
 ## Start the png device
-png(filename = "plot4.png", width = 400, height = 400, units = "px", bg = "white")
+png(filename = "plot4.png", width = 480, height = 480, units = "px", bg = "white")
 
 ## Make 2x2 chart
 par(mfrow=c(2,2))
